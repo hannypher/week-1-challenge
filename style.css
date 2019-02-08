@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header{
+   display:  -webkit-inline-flex;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 50px;
+   line-height: 50px;
+   background-color: whitesmoke;
+}
+
+header*{
+    display: ruby-text-container
+}
+
+header ul{
+   padding: 0;
+}
+
+header li{
+    margin-left: 20px;
+}
+
+section{
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover; /*Add this line*/
+    background-position: center center; /*Add this line*/
+    background-repeat: no repeat; /*Add this line*/
+    background-attachment: fixed; /*Add this line*/
+}
+
+.profile-img{
+    border-radius: 100%;
+}
+
+footer{
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: royalblue;
+    padding: 5px;
+}
+
+section h2 {
+    font: algerian;
+    font-size: 25px;
+    color: red
+}
+
+section h3 {
+    font: algerian;
+    font-size: 25px;
+    color: red
+}
+
+header a{
+    text-decoration: rgb(158, 158, 204)blanchedalmond;
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://placeimg.com/400/400/any');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://placeimg.com/400/400/any');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://placeimg.com/400/400/any');
+}
